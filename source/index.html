@@ -4,207 +4,173 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/releases/v5.15.0/js/all.js" data-auto-replace-svg="nest"></script>
 	<title></title>
 </head>
 <body>
-	<header class="page-header">
-    <div class="container" style="border: 1px solid red">
-      <div class="row text-white">
-        <div class="col-sm p-2 text-center text-md-right" style="border: 1px solid red">
-          Техническая поддержка и подключение: <b class="d-inline-flex">+7(499) 404-04-71</b>
+	<header>
+    <div class="container-fluid header-info">
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-sm p-2 text-center text-lg-right">
+            Техническая поддержка и подключение: <b class="d-inline-flex">+7(499) 404-04-71</b>
+          </div>
+          <div class="col-sm-auto d-none d-md-block text-center">
+            <a class="btn btn-primary" href="#">Личный кабинет</a>
+          </div>
         </div>
-        <div class="col-sm-2 d-none d-md-block d-lg-none" style="border: 1px solid red">
-          <img src="../img/logo.png" class="page-header__logo-image" width="80" height="40" alt="логотип">
-        </div>
-        <div class="col-sm-3 d-none d-lg-block" style="border: 1px solid red">
-          <a href="#">Личный кабинет</a>
-        </div>
-      </div>
-      <div class="row d-md-block d-lg-none">
-        кнопка бутер
       </div>
     </div>
 
-    <!-- <div class="container-sm">
-      <div>
-        <div class="col-sm">Техническая поддержка и подключение: <b class="support__phone">+7(499) 404-04-71</b></div>
-        <div>
-          <a href="#" class="col-sm">Личный кабинет</a>
+    <div class="container-fluid header-info2">
+      <nav class="container navbar navbar-expand-md navbar-dark d-flex justify-content-end">
+        <a href="#" class="navbar-brad d-none d-md-block">
+          <img src="img/logo.png" alt="Логотип">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active"><i class="d-inline-block d-md-none fas fa-globe"></i> Интернет</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="d-inline-block d-md-none fas fa-tv"></i> Телевидение</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="d-inline-block d-md-none fas fa-users"></i> Абонентам</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="d-inline-block d-md-none far fa-newspaper"></i> Новости</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="d-inline-block d-md-none fas fa-info-circle"></i> О провайдере</a>
+            </li>
+            <li class="d-inline-block d-md-none nav-item nav-item--popup" style="border-top: 1px solid #fff;">
+              <a href="#" class="nav-link text-white"><i class="fas fa-user-tie"></i> Личный кабинет</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div> -->
+      </nav>
+    </div>
 
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-sm-2" style="border: 1px solid red">
-          <img src="#" class="page-header__logo-image" width="60" height="30" alt="логотип сайта">
-        </div>
-        <div class="col-sm" style="border: 1px solid red">
-          Интернет
-        </div>
-        <div class="col-sm" style="border: 1px solid red">
-          Абонентам
-        </div>
-        <div class="col-sm" style="border: 1px solid red">
-          Новости
-        </div>
-        <div class="col-sm" style="border: 1px solid red">
-          Телевидение
-        </div>
-        <div class="col-sm" style="border: 1px solid red">
-          О провайдере
-        </div>
-        <div class="col-sm" style="border: 1px solid red">
-          Оставить заявку
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <a href="#" class="page-header__logo page-header__logo--top">
-      <img src="#" class="page-header__logo-image" width="60" height="30" alt="логотип сайта">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle">Открыть меню</button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active"><a href="">Интернет</a></li>
-          <li class="site-list__item"><a href="">Абонентам</a></li>
-          <li class="site-list__item"><a href="">Новости</a></li>
-          <li class="site-list__item"><a href="">Телевидение</a></li>
-          <li class="site-list__item"><a href="">О провайдере</a></li>
-        </ul>
-      </div>
-      <a href="">Оставить заявку</a>
-      <a href="#" class="support__account support__account--mobile">Личный кабинет</a>
-    </nav> -->
-
-    <!-- <div class="container" style="border: 1px solid red">
-      <div class="row">
-        <div class="col-sm-1">
-          Назад
-        </div>
-        <div class="col-sm">
-          <div class="row"">
-            <div class="col-sm">
-              Подключение интернета
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm">
-              Узнать подробности
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-1">
-          Вперед
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="page-header__bar">
-      <a href="#" class="page-header__logo page-header__logo--top">
-        <img src="#" class="page-header__logo-image" width="60" height="30" alt="логотип сайта">
-      </a>
-      <a href="">Оставить заявку</a>
-    </div> -->
+    <div class="container-fluid d-block d-md-none" style="background-color: #E7F0F8;">
+      <div class="container d-flex justify-content-center flex-wrap">
+        <a href="#" class="navbar-brad d-flex justify-content-center" style="margin: 30px auto; width: 100%">
+          <img src="img/logo.png" alt="Логотип">
+        </a>
+        <a href="#" class="btn btn-outline-primary" style="margin-bottom: 40px;">Отправить заявку</a>
+      </div> 
+    </div>
   </header>
-  <!-- <main class="container" style="border: 1px solid red">
-    <div class="row" style="border: 1px solid red">
-      <div class="col-sm">
-        Новости
+
+  <main>
+    <div class="container">
+      <div class="carousel slide d-none d-md-block" data-ride="carousel" id="slides">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/car-1.jpg" alt="машина-1" class="d-block w-100" height="400">
+            <div class="carousel-caption">
+              <h2>Подключение интернета</h2>
+              <a href="#" class="btn btn-lg btn-outline-light">Узнать подробности</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/car-2.jpg" alt="машина-2" class="d-block w-100" height="400">
+            <div class="carousel-caption">
+              <h2>Подключение интернета</h2>
+              <a href="#" class="btn btn-lg btn-outline-light">Узнать подробности</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/car-3.jpg" alt="машина-3" class="d-block w-100" height="400">
+            <div class="carousel-caption">
+              <h2>Подключение интернета</h2>
+              <a href="#" class="btn btn-lg btn-outline-light">Узнать подробности</a>
+            </div>
+          </div>
+        </div>
+        <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Prev</span>
+        </a>
+        <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
-    <div class="row" style="border: 1px solid red">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            17.08.2020 Перебои со связью
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            17 августа 2020 года, проводится работы на подстанции. Ожидаемое время окончание работ &#8212; 17-18 часов
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="border: 1px solid red">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            04.05.2020 Перебои со связью
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            Проблемы на магистральном оборудовании вышестоящего провайдера, мы пытаемся как можно скорее устранить проблему
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="border: 1px solid red">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            22.11.2019 Дер.Семёшки
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            Стало доступно оптоволоконное подключение частного дома!!!
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- <h1 class="visually-hidden">Sonet сайт</h1>
-    <div class="main__slider slider">
-      <button type="button" class="slider__toggle slider__toggle--left">Сдвинуть влево</button>
-      <h3 class="slider__text">Подключение интернета</h3>
-      <a href="" class="slider__info">Узнать подробности</a>
-      <button type="button" class="slider__toggle slider__toggle--wright">Сдвинуть вправо</button>
     </div>
 
-    <section class="stats">
-      <h2 class="stats__title">Новости</h2>
-      <ul class="stats__list news-list">
-        <li class="news-list__item">
-          <h4 class="news-list__title">17.08.2020 Перебои со связью</h4>
-          <p class="news-list__info">17 августа 2020 года, проводится работы на подстанции. Ожидаемое время окончание работ &#8212; 17-18 часов</p>
-        </li>
-        <li class="news-list__item">
-          <h4 class="news-list__title">04.05.2020 Перебои со связью</h4>
-          <p class="news-list__info">Проблемы на магистральном оборудовании вышестоящего провайдера, мы пытаемся как можно скорее устранить проблему</p>
-        </li>
-        <li class="news-list__item">
-          <h4 class="news-list__title">22.11.2019 Дер.Семёшки</h4>
-          <p class="news-list__info">Стало доступно оптоволоконное подключение частного дома!!!</p>
-        </li>
-      </ul>
-    </section> -->
-  <!-- </main> -->
-  <!-- <footer class="container" style="border: 1px solid red">
-    <div class="row">
-      <div class="col-sm-2" style="border: 1px solid green">
-        <div class="row">Интернет</div>
-        <div class="row">Телевидение</div>
-        <div class="row">Новости</div>
-      </div>
-      <div class="col-sm-2" style="border: 1px solid green">
-        <div class="row">О провайдере</div>
-        <div class="row">Абонентам</div>
-        <div class="row">Оставить заявку</div>
-      </div>
-      <div class="col-sm" style="border: 1px solid green">
-        <div class="row" style="border: 1px solid green">Теперь на мобильных устройствах</div>
-        <div class="row">
-          <div class="col-sm" style="border: 1px solid green">App Store</div>
-          <div class="col-sm" style="border: 1px solid green">Google Play</div>
+    <div class="container">
+      <h3 class="mb-4">Новости</h3>
+      <div class="row m-0">
+        <div class="col-ex w-100 border mb-3 p-3 text-muted">
+          <p class="font-weight-bold-md">17.08.2020 <span class="d-block d-md-inline-block mt-3 pl-md-3 font-weight-bold">Перебои со связью</span></p>
+          <p>17 Августа 2020 года, будут проводится работы на подстанции. Ожидаемое время окончание работ — 17-18 часов</p>
+        </div>
+        <div class="col-ex w-100 border mb-3 p-3 text-muted">
+          <p class="font-weight-bold-md">04.05.2020 <span class="d-block d-md-inline-block mt-3 pl-md-3 font-weight-bold">Перебои со связью</span></p>
+          <p>Проблемы на магистральном оборудовании вышестоящего провайдера, мы пытаемся как можно скорее устранить проблему</p>
+        </div>
+        <div class="col-ex w-100 border mb-5 p-3 text-muted">
+          <p class="font-weight-bold-md">22.11.2019 <span class="d-block d-md-inline-block mt-3 pl-md-3 font-weight-bold">Дер. Семёшки</span></p>
+          <p>Стало доступно оптоволоконное подключения частного дома!!!</p>
         </div>
       </div>
     </div>
-  </footer> -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </main>
+  <footer>
+    <div class="container-fluid py-4">
+      <div class="container">
+        <div class="row text-light text-underline">
+          <div class="col-sm-2 d-none d-md-block">
+            <p><a href="#" >Интернет</a></p>
+            <p><a href="#">Телевидение</a></p>
+            <p><a href="#">Новости</a></p>
+          </div>
+          <div class="col d-none d-md-block">
+            <p><a href="#">О провайдере</a></p>
+            <p><a href="#">Абонентам</a></p>
+            <p><a href="#">Оставить заявку</a></p>
+          </div>
+          <div class="col text-center text-md-right">
+            <p>Теперь на мобильных устройствах</p>
+              <div class="d-inline-block">
+                <a href="">
+                  <img src="img/appstore.png" alt="app store" width="110" height="35">
+                </a>
+              </div>
+              <div class="d-inline-block google-play">
+                <a href="">
+                  <img src="img/googleplay.png" alt="google play" width="125" height="35">
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler-icon").toggleClass("closed");
+      });
+    });
+  </script>
+  
 
 </body>
 </html>
