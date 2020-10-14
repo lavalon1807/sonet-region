@@ -83,12 +83,17 @@ a.btn-primary {
 	margin-left: 10px;
 }
 
-.internet-list li {
+.internet-list li,
+.abonent-list li {
 	padding: 7px;
 }
 
 .internet-list-underlist li {
 	padding-left: 25px;
+}
+
+.abonent-list {
+	margin-top: 50px;
 }
 
 html,
